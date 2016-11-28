@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/carter-harris/hca-ux-creative-design/issues"
   },
-  "homepage": "https://github.com/carter-harris/hca-ux-creative-design#readme"
+  "homepage": "https://github.com/carter-harris/hca-ux-creative-design#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
