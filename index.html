@@ -3,10 +3,279 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
+  <title>HCA UX CREATIVE DESIGN</title>
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app/css/main.css">
 </head>
 <body>
-  <h1>Hello World</h1>
+
+<div class="container-fluid">
+
+  <!-- Navbar / Section 1 -->
+  <nav class="navbar">
+    <div class="container-fluid">
+
+      <!-- Hamburger Menu when view is in moblie, bootstrap classes to toggle nav links -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">    <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Nav links that will be toggled into the hamburger menu above once screen is in mobile -->
+      <div class="collapse navbar-collapse dropdown-menu-links" id="bs-example-navbar-collapse-1">
+
+        <!-- Navbar Left - Text Links -->
+        <ul class="nav navbar-nav">
+          <li><a href="#" class="nav-hamburger-sidebar hidden-xs"><i class="glyphicon glyphicon-align-justify"></i></a></li>
+          <li><a href="#" class="hca-grey">Patients & Visitors</a></li>
+          <li><a href="#" class="hca-grey">Find a Doctor</a></li>
+          <li><a href="#" class="hca-grey">Services</a></li>
+          <li><a href="#" class="hca-grey">Pay a Bill</a></li>
+          <li><a href="#" class="hca-grey">Attend a Class</a></li>
+        </ul>
+
+        <!-- Navbar Right - Icons -->
+        <ul class="nav navbar-nav navbar-right hidden-xs icon-nav-bar">
+          <li><a href="#" class="hca-grey glyp-nav nav-icons"><i class="glyphicon glyphicon-search"></i></a></li>
+          <li><a href="#" class="hca-grey glyp-nav nav-icons"><i class="glyphicon glyphicon-earphone"></i></a></li>
+          <li><a href="#" class="hca-grey glyp-nav nav-icons"><i class="glyphicon glyphicon-send"></i></a></li>
+          <li><a href="#" class="hca-grey glyp-nav nav-icons"><i class="glyphicon glyphicon-heart-empty"></i></a></li>
+        </ul>
+      </div><!-- End of navbar-collapse -->
+
+    </div><!-- End of nav container -->
+  </nav><!-- End of nav -->
+
+
+  <hr class="hr-line">
+
+
+  <div class="container-fluid">
+    <!-- Section 2 (ER Wait Time / Logo) -->
+    <div class="container bwm-erwt-container">
+      <div class="row bwm-erwt-row">
+        <div class="col-sm-6 bwm-logo-container">
+          <img src="app/images/bwm-logo.svg" alt="" class="image">
+        </div>
+        <div class="col-sm-6 erwt-container">
+          <div class="col-sm-8 col-sm-offset-4 er-wait-time-col">
+            <p class="er-wait-time-header">Average ER Wait Time</p>
+            <div class="er-wait-time-box pull-right">
+              <div class="timer-number">1</div>
+              <div class="timer-text">Min</div>
+            </div>
+            <p class="er-wait-time-hospital-name">Beachwood Memorial Medical Center</p>
+            <p class="er-wait-time-hospital-date"><a href="#">as of 9:10am today</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr class="hr-line">
+
+
+    <!-- Section 3 (Video Header) -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 video-feature-container">
+          <h1 class="video-feature-page-header">Video Feature Page</h1>
+          <hr class="video-feature-hr">
+          <a href="#" class="home-icon"><i class="glyphicon glyphicon-home"></i></a>
+          <p class="video-feature-second-heading"><span class="slash-mark">/ </span>Video Feature Page</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Section 4 (Videos) -->
+    <div class="container video-section-container">
+      <h3 class="video-count-header">5 Videos</h3>
+
+      <!-- Video 1 -->
+      <div class="row video-row">
+        <div class="col-sm-7 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FpHNlx0pPIU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-sm-5 video-summary-container">
+          <h2 class="video-h2">Eleven</h2>
+          <p class="video-summary-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          <!-- Button Container -->
+          <div class="button-container">
+            <button type="button" class="btn btn-default btn-lg read-more-button" data-toggle="modal" data-target="#myModal">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Video 2 -->
+      <div class="row video-row">
+        <div class="col-sm-7 video-container">
+          <div class="flex-video embed-responsive embed-responsive-16by9">
+            <iframe width="50%" height="50%" src="https://www.youtube.com/embed/FpHNlx0pPIU" frameborder="0" allowfullscreen class="video"></iframe>
+          </div>
+        </div>
+        <div class="col-sm-5 video-summary-container">
+          <h2 class="video-h2">Dustin</h2>
+          <p class="video-summary-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          <!-- Button Container -->
+          <div class="button-container">
+            <button type="button" class="btn btn-default btn-lg read-more-button" data-toggle="modal" data-target="#myModal">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Video 3 -->
+      <div class="row video-row">
+        <div class="col-sm-7 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FpHNlx0pPIU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-sm-5 video-summary-container">
+          <h2 class="video-h2">Will</h2>
+          <p class="video-summary-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          <!-- Button Container -->
+          <div class="button-container">
+            <button type="button" class="btn btn-default btn-lg read-more-button" data-toggle="modal" data-target="#myModal">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Video 4 -->
+      <div class="row video-row">
+        <div class="col-sm-7 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FpHNlx0pPIU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-sm-5 video-summary-container">
+          <h2 class="video-h2">Barb</h2>
+          <p class="video-summary-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          <!-- Button Container -->
+          <div class="button-container">
+            <button type="button" class="btn btn-default btn-lg read-more-button" data-toggle="modal" data-target="#myModal">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Video 5 -->
+      <div class="row video-row">
+        <div class="col-sm-7 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FpHNlx0pPIU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-sm-5 video-summary-container">
+          <h2 class="video-h2">Lucas</h2>
+          <p class="video-summary-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          <!-- Button Container -->
+          <div class="button-container">
+            <button type="button" class="btn btn-default btn-lg read-more-button" data-toggle="modal" data-target="#myModal">Read More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>  <!-- End of Section 4 (Videos) -->
+
+
+    <!-- Contact Section -->
+    <div class="container-fluid contact-container">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="name-container contact-element-container">
+            <p class="contact-text-styles">Eleven</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="telephone-container contact-element-container">
+            <div class="contact-text-styles">
+              <i class="glyphicon glyphicon-earphone"></i>
+              <a href="tel:+13235798328" class="telephone-link">(323) 579-8328</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="address-container contact-element-container">
+            <p class="address-text">
+              HCA Campus <br/>
+              100 HCA Blvd <br/>
+              Nashville, TN 11111
+            </p>
+          </div>
+        </div>
+
+      </div> <!-- End of Contact Section Row -->
+    </div> <!-- End of Contact Section -->
+
+
+
+
+    <div class="container-fluid">
+      <div class="row sidebar-row">
+        <div class="col-sm-2">
+          <div class="sidebar-ul-container">
+            <ul class="sidebar-ul">
+              <li><p class="sidebar-name">Eleven</p></li>
+              <li><p class="sidebar-name">Dustin</p></li>
+              <li><p class="sidebar-name">Will</p></li>
+              <li><p class="sidebar-name">Barb</p></li>
+              <li><p class="sidebar-name">Lucas</p></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-10">
+          <div class="sidebar-text-container">
+            <p class="sidebar-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          </div>
+        </div>
+
+      </div>
+    </div
+
+
+
+    <!-- Read More Modal -->
+    <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="glyphicon glyphicon-info-sign more-info-icon-modal"></i>
+          </div>
+          <div class="modal-body">
+            <p>Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default modal-close-button" data-dismiss="modal">X Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- Page Container minus Navbar -->
+</div>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Toggle the The Upside Down Script -->
+<script>
+$(".upsidedown-toggle").click(function(e) {
+    e.preventDefault();
+    $(".sidebar-container").toggleClass("toggled");
+});
+</script>
 </body>
 </html>

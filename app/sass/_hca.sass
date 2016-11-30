@@ -1,0 +1,396 @@
+// ******************************//
+      // BASIC PAGE STYLES //
+// ******************************//
+.container-fluid
+  margin: 0
+  padding: 0
+
+
+.hr-line
+  border: 2px solid #eee
+
+
+.hca-grey
+  color: $hca-nav-links-grey
+
+
+
+
+// ******************************//
+            // NAVBAR //
+// ******************************//
+.navbar
+  margin-bottom: 0
+
+
+.icon-bar
+  background-color: $hca-nav-links-grey
+
+
+.icon-nav-bar
+  padding-right: 2em
+
+
+.nav-icons
+  font-size: 1.4em
+
+
+.navbar-toggle
+  margin-right: 26em
+
+
+.dropdown-menu-links
+  padding-left: 2em
+
+
+.glyp-nav:hover
+  color: #3b5998
+
+
+
+
+// ******************************************************** //
+    // BEECHWOOD MEMORIAL LOGO AND ER WAIT TIME STYLES //
+// ******************************************************** //
+
+// Beechwood Memorial Logo and ER Wait Time Styles
+.bwm-erwt-row
+  margin: 1em 1.5em
+
+
+// Beechwood Memorial SVG
+.image
+  height: 6em
+  width: 16em
+
+
+// ER WAIT TIME SECTION
+.er-wait-time-hospital-date
+  text-align: right
+  padding-right: 5em
+
+
+.er-wait-time-hospital-name
+  text-align: right
+  padding-right: 5em
+  margin: 0
+  padding-top: .6em
+
+
+.er-wait-time-header
+  text-align: right
+  border-bottom: 2px solid grey
+  font-weight: 300
+  line-height: 2em
+
+
+.er-wait-time-box
+  border-radius: .3em
+  height: 4em
+  width: 4em
+  background-color: #26A65B
+  text-align: center
+  color: #fff
+
+
+.timer-number
+  font-size: 1.7em
+  padding-top: .2em
+  line-height: 1.2em
+  font-weight: 300
+
+
+.timer-text
+  font-size: .9em
+  font-weight: 300
+  text-decoration: none
+
+
+
+
+// ******************************//
+    // VIDEO HEADER SECTION //
+// ******************************//
+.video-feature-container
+  padding: 2em 2em 1em 4em
+  padding-left: 4em
+
+
+.video-feature-page-header
+  font-weight: 400
+
+
+.video-feature-hr
+  width: 13em
+  margin: 1.5em 0
+  border: 1px solid $bwm-purple
+  background-color: $bwm-purple
+
+
+.home-icon
+  float: left
+  padding-right: 1em
+  color: $bwm-purple
+
+
+.slash-mark
+  font-weight: 300
+  color: #95a5a6
+
+
+.video-feature-second-heading
+  font-weight: 300
+  color: #95a5a6
+
+
+
+
+// ******************************//
+            // VIDEOS //
+// ******************************//
+.video-section-container
+  background-color: #efefef
+  width: 100%
+  padding-bottom: 7em
+
+
+.video-count-header
+  padding: 1em 0 0 4em
+  font-weight: 100
+
+
+.video-row
+  margin: 3em 7em .5em 7em
+
+
+.video-container
+  margin: 0
+  padding: 0
+
+
+.video-summary-container
+  border: 1px solid #d8d4d4
+  background-color: white
+
+
+.video-summary-text
+  color: #5b5b5b
+
+
+.read-more-button
+  border: solid 2px $bwm-purple
+  border-radius: 2em
+  color: $bwm-purple
+  &:hover
+    color: white
+    transition: background-color 1s ease
+    background-color: $bwm-purple
+    border-color: $bwm-purple
+
+
+.video-h2
+  padding: .3em 0 .2em .6em
+  font-weight: 400
+
+
+.video-summary-text
+  padding: 0 1.5em 1em
+
+
+.button-container
+  padding: 0 0 2.4em 1.5em
+
+
+
+
+// ******************************//
+        // CONTACT SECTION //
+// ******************************//
+.contact-container
+  padding: 4em 5em
+
+
+.contact-element-container
+  padding: 2em
+  margin: 2em
+  color: #fff
+  text-align: center
+  background-color: $bwm-purple
+  box-shadow: 0 8px 6px -6px #7a7a7a
+
+
+.contact-text-styles
+  font-size: 1.5em
+  font-weight: 300
+  padding-top: 1em
+
+
+.name-container
+  height: 9em
+
+
+.telephone-container
+  height: 9em
+
+
+.telephone-link
+  color: #fff
+  &hover
+    color: #fff
+    text-decoration: 0
+
+
+.address-container
+  padding: 2em
+  margin: 2em
+  text-align: center
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+// ******************************//
+        // Modal Styles //
+// ******************************//
+.modal-header
+  background-color: $bwm-purple
+  padding: 3em
+  text-align: center
+
+
+.more-info-icon-modal
+  color: #fff
+  font-size: 6em
+
+
+.modal-title
+  text-align: center
+
+
+.modal-body
+  padding: 3em
+
+
+.modal-footer
+  text-align: center
+
+
+.modal-close-button
+  padding: 0.7em
+  border-radius: 2em
+  width: 9em
+  border: solid 2px $bwm-purple
+  border-radius: 2em
+  color: #fff
+  background-color: $bwm-purple
+  &:hover
+    color: $bwm-purple
+    transition: background-color 1s ease
+    background-color: #fff
+    border-color: $bwm-purple
+
+
+
+
+// *******************************************//
+        // MODAL FADE IN AND OUT EFFECTS //
+// *******************************************//
+.modal.fade .modal-dialog
+  transform: scale(0.1)
+  top: 23em
+  opacity: 0
+  transition: all 0.3s
+
+
+.modal.fade.in .modal-dialog
+  transform: translate3d(0, -300px, 0)
+  opacity: 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+// ******************************//
+       // Sidebar Styles //
+// ******************************//
+.sidebar-row
+  background-color: #efefef
+
+
+.sidebar-ul-container
+  padding: 2em 5em
+  position: absolute
+  z-index: 1000
+  overflow: hidden
+  background-color: #efefef
+
+
+.sidebar-name
+  font-size: 1.3em
+
+
+.sidebar-text-container
+  padding: 2em 1em 3em 0
+  background-color: #fff
+
+
+.sidebar-text
+  padding: 4em 2em
+  font-weight: 300
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+// ******************************//
+       // MEDIA QUERIES //
+// ******************************//
+
+// Desktop Responsive width 400px
+@media screen and (max-width: 400px)
+
+  // Beechwood Memorial Logo and ER Wait Time Section
+  .bwm-erwt-row
+    margin: 0
+    padding-bottom: 1em
+
+
+  .bwm-logo-container
+    padding-left: 0
+
+
+  .erwt-container
+    padding: 2em 0 0 0
+
+
+  .er-wait-time-col
+    padding-left: 47px
+
+
+  // Video Feature Container
+  .video-feature-container
+    padding-left: 1.5em
+
+
+  // Video Section
+  .video-count-header
+    padding: 1em 0 0 1em
+
+
+  .video-row
+      margin: 3em 1em .5em 1em
+
+
+  .contact-container
+      padding: 2em 1em
+
+
+
+// Sidebar Section Queries
+@media screen and (max-width: 400px)
+  .sidebar-text
+    padding: 0 1em 2em 13em
+
+
+  .sidebar-ul-container
+    padding-left: 3em
