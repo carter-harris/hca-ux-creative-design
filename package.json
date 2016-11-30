@@ -18,6 +18,7 @@
   "homepage": "https://github.com/carter-harris/hca-ux-creative-design#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
     "node-sass": "^3.13.0"
   },
   "devDependencies": {
