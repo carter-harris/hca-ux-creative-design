@@ -29,6 +29,7 @@
 
         <!-- Navbar Left - Text Links -->
         <ul class="nav navbar-nav">
+          <li><a href="#" class="nav-hamburger-sidebar hidden-xs"><i class="glyphicon glyphicon-align-justify"></i></a></li>
           <li><a href="#" class="hca-grey">Patients & Visitors</a></li>
           <li><a href="#" class="hca-grey">Find a Doctor</a></li>
           <li><a href="#" class="hca-grey">Services</a></li>
@@ -54,13 +55,13 @@
 
   <div class="container-fluid">
     <!-- Section 2 (ER Wait Time / Logo) -->
-    <div class="container">
-      <div class="row bwm-erwt-container">
-        <div class="col-sm-6">
+    <div class="container bwm-erwt-container">
+      <div class="row bwm-erwt-row">
+        <div class="col-sm-6 bwm-logo-container">
           <img src="app/images/bwm-logo.svg" alt="" class="image">
         </div>
-        <div class="col-sm-6">
-          <div class="col-sm-8 col-sm-offset-4">
+        <div class="col-sm-6 erwt-container">
+          <div class="col-sm-8 col-sm-offset-4 er-wait-time-col">
             <p class="er-wait-time-header">Average ER Wait Time</p>
             <div class="er-wait-time-box pull-right">
               <div class="timer-number">1</div>
@@ -220,6 +221,33 @@
     </div> <!-- End of Contact Section -->
 
 
+
+
+    <div class="container-fluid">
+      <div class="row sidebar-row">
+        <div class="col-sm-2">
+          <div class="sidebar-ul-container">
+            <ul class="sidebar-ul">
+              <li><p class="sidebar-name">Eleven</p></li>
+              <li><p class="sidebar-name">Dustin</p></li>
+              <li><p class="sidebar-name">Will</p></li>
+              <li><p class="sidebar-name">Barb</p></li>
+              <li><p class="sidebar-name">Lucas</p></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-10">
+          <div class="sidebar-text-container">
+            <p class="sidebar-text">Convergence integrate latte integrate food-truck ideate earned media disrupt moleskine earned media. Waterfall is so 2000 and late viral fund fund Steve Jobs bootstrapping driven iterate. Human-centered design agile engaging grok hacker pair programming earned media venture capital ship it food-truck Steve Jobs grok. SpaceTeam integrate actionable insight prototype user story fund latte disrupt integrate.</p>
+          </div>
+        </div>
+
+      </div>
+    </div
+
+
+
     <!-- Read More Modal -->
     <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
@@ -242,5 +270,12 @@
 
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Toggle the The Upside Down Script -->
+<script>
+$(".upsidedown-toggle").click(function(e) {
+    e.preventDefault();
+    $(".sidebar-container").toggleClass("toggled");
+});
+</script>
 </body>
 </html>

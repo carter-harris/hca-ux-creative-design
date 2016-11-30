@@ -54,7 +54,7 @@
 // ******************************************************** //
 
 // Beechwood Memorial Logo and ER Wait Time Styles
-.bwm-erwt-container
+.bwm-erwt-row
   margin: 1em 1.5em
 
 
@@ -296,25 +296,47 @@
         // MODAL FADE IN AND OUT EFFECTS //
 // *******************************************//
 .modal.fade .modal-dialog
-  -webkit-transform: scale(0.1)
-  -moz-transform: scale(0.1)
-  -ms-transform: scale(0.1)
   transform: scale(0.1)
   top: 23em
   opacity: 0
-  -webkit-transition: all 0.3s
-  -moz-transition: all 0.3s
   transition: all 0.3s
 
 
 .modal.fade.in .modal-dialog
-  -webkit-transform: scale(1)
-  -moz-transform: scale(1)
-  -ms-transform: scale(1)
-  transform: scale(1)
-  -webkit-transform: translate3d(0, -300px, 0)
   transform: translate3d(0, -300px, 0)
   opacity: 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+// ******************************//
+       // Sidebar Styles //
+// ******************************//
+.sidebar-row
+  background-color: #efefef
+
+
+.sidebar-ul-container
+  padding: 2em 5em
+  position: absolute
+  z-index: 1000
+  overflow: hidden
+  background-color: #efefef
+
+
+.sidebar-name
+  font-size: 1.3em
+
+
+.sidebar-text-container
+  padding: 2em 1em 3em 0
+  background-color: #fff
+
+
+.sidebar-text
+  padding: 4em 2em
+  font-weight: 300
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -324,5 +346,51 @@
        // MEDIA QUERIES //
 // ******************************//
 
+// Desktop Responsive width 400px
+@media screen and (max-width: 400px)
+
+  // Beechwood Memorial Logo and ER Wait Time Section
+  .bwm-erwt-row
+    margin: 0
+    padding-bottom: 1em
 
 
+  .bwm-logo-container
+    padding-left: 0
+
+
+  .erwt-container
+    padding: 2em 0 0 0
+
+
+  .er-wait-time-col
+    padding-left: 47px
+
+
+  // Video Feature Container
+  .video-feature-container
+    padding-left: 1.5em
+
+
+  // Video Section
+  .video-count-header
+    padding: 1em 0 0 1em
+
+
+  .video-row
+      margin: 3em 1em .5em 1em
+
+
+  .contact-container
+      padding: 2em 1em
+
+
+
+// Sidebar Section Queries
+@media screen and (max-width: 400px)
+  .sidebar-text
+    padding: 0 1em 2em 13em
+
+
+  .sidebar-ul-container
+    padding-left: 3em
